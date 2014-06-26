@@ -1,0 +1,24 @@
+[user]
+	name = Vinicius Souza
+	email = hi@vsouza.com
+
+[color]
+  diff = auto
+  status = auto
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added     = cyan bold
+	branch    = cyan bold
+	changed   = magenta bold
+	deleted   = red bold
+	untracked = yellow bold
+[push]
+	# 'git push' will push the current branch to its tracking branch
+	# the usual default is to push all branches
+	default = tracking
+[core]
+	excludesfile = ~/.gitignore_global
