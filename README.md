@@ -1,6 +1,6 @@
 # My dotfiles
 
-![Preview](http://cl.ly/image/1Z282k3i1v1E/Screen%20Shot%202014-06-25%20at%2011.46.45%20PM.png)
+![Preview](http://cl.ly/image/1D2P3G2r1o3R/dotfiles.png)
 
 My Mac Settings and includes quite a select list of apps installed automatically
 ## Install
@@ -66,7 +66,7 @@ After installing all apps are moved to /Applications folder
 
 ## Credits
 
-* This project is a customized version of: [@zenoroch old-dotfiles](https://github.com/zenorocha/old-dotfiles)
+* This project is a customized version of: [@zenorocha old-dotfiles](https://github.com/zenorocha/old-dotfiles)
 
 ## License
 
