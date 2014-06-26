@@ -23,7 +23,7 @@ function msg_ok {
 }
 
 function msg_run {
-	echo  "➜\033[1;35m $1 $ $2\033[0m";
+	echo  "➜\033[1;35m $1  $2\033[0m";
 }
 
 function msg_done {

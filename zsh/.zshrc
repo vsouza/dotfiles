@@ -20,14 +20,11 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse example rationalise-dot)
-plugins=(brew cloudapp extract gem git git-prompt git-tools github history-substring-search macports node npm osx python rake ruby z)
+plugins=(brew cloudapp extract gem git git-prompt git-tools github history-substring-search macports node npm osx python z)
 
 # -- Editor --------------------------------------------------------------------
 export EDITOR="subl -w"
 
-# -- Rbenv ---------------------------------------------------------------------
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
 # -- User Config ---------------------------------------------------------------
 if [[ -f "$HOME/.dotfiles/config.$USER" ]]; then

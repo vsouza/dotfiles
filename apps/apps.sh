@@ -134,10 +134,8 @@ else
   msg_ok "Vagrant"
 fi
 
-# other
-msg_run "Install Other tools"
 
-if [ ! -d "$applications/${app[mysqlWorkbench]}" ]
+if [ ! -d "$applications/${app[dropbox]}" ]
 then
   brew cask install dropbox
   msg_ok "Dropbox"
@@ -200,6 +198,7 @@ then
 else
   msg_ok "Cloud App"
 fi
+
 
 if [ ! -d "$applications/${app[caffeine]}" ]
 then

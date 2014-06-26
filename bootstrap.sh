@@ -15,10 +15,10 @@ function msg_ok {
 }
 
 function msg_run {
-	echo  "➜\033[1;35m $1 $ $2\033[0m";
+	echo  "➜\033[1;35m $1  $2\033[0m";
 }
 
-
+msg '\n'
 
 msg_ok '      _       _    __ _ _             _ _ _ '
 msg_ok '     | |     | |  / _(_) |           | | | |'

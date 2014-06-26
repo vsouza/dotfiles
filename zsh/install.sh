@@ -28,7 +28,7 @@ else
 	git clone https://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
 fi
 
--- Themes --------------------------------------------------------------------
+#-- Themes --------------------------------------------------------------------
 if [[ -d "$HOME/.themes" ]]; then
 	msg_ok "themes"
 else
@@ -36,7 +36,7 @@ else
 	git clone https://github.com/zenorocha/dracula-theme.git $HOME/.themes
 fi
 
--- Link Themes ---------------------------------------------------------------
+#-- Link Themes ---------------------------------------------------------------
 if [[ -L "$HOME/.oh-my-zsh/custom-dotfiles/themes" ]]; then
 	msg_ok "oh-my-zsh themes"
 else
