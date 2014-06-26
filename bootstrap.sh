@@ -72,7 +72,6 @@ fi
 
 # Install all apps with homebrew cask
 # -- Apps ------------------------------------------------------------------
-msg_run "install apps - homebrew cask"
 sh $HOME/.dotfiles/apps/apps.sh
 
 

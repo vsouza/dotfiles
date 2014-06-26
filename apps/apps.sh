@@ -36,10 +36,9 @@ msg_run "Installing Apps"
 
 if [ ! -d "/usr/local/Library/Taps/caskroom/homebrew-cask" ]
 then
-  msg_run "Setup homebrew-cask"
   brew tap phinze/homebrew-cask
   brew install brew-cask
-  msg_ok "Setup homebrew-cask"
+  msg_ok "homebrew-cask is ready!"
 else
   msg_ok "Setup homebrew-cask"
 fi
@@ -209,6 +208,6 @@ else
 fi
 
 # After install apps, move to /Applications
-msg_run "Moving all to /Aplications folder"
+msg_ok "Their applications have been successfully installed. Now let's move to the /Applications folder"
 moveApps
 msg_ok "Done!"

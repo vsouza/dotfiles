@@ -1,6 +1,6 @@
 # dotfiles
 
-![Preview](http://cl.ly/image/1X3u3k3I132f/dotfiles2.png)
+![Preview](http://cl.ly/image/2e1Z280K3N1m/dotfiles3.png)
 
 My Mac Settings and includes quite a select list of apps installed automatically
 ## Install
