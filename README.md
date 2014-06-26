@@ -1,4 +1,4 @@
-# My dotfiles
+# dotfiles
 
 ![Preview](http://cl.ly/image/1D2P3G2r1o3R/dotfiles.png)
 
