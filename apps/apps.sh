@@ -15,7 +15,6 @@ app[filezilla]="FileZilla.app"
 app[sublime]="Sublime Text.app"
 app[github]="GitHub.app"
 app[skype]="Skype.app"
-app[dropbox]="Dropbox.app"
 app[iterm2]="iterm2.app"
 app[sourcetree]="SourceTree.app"
 app[virtualbox]="VirtualBox.app"
@@ -131,15 +130,6 @@ if which vagrant &> /dev/null; then
 else
   brew cask install vagrant
   msg_ok "Vagrant"
-fi
-
-
-if [ ! -d "$applications/${app[dropbox]}" ]
-then
-  brew cask install dropbox
-  msg_ok "Dropbox"
-else
-  msg_ok "Dropbox"
 fi
 
 if [ ! -d "$applications/${app[googleDrive]}" ]
