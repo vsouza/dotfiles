@@ -54,7 +54,7 @@ After installing all apps are moved to /Applications folder
 #### General
 
 * [Homebrew](http://mxcl.github.com/homebrew/) for MacOS X package management
-* [Homebrew](http://caskroom.io/) to install apps easily
+* [Homebrew Cask](http://caskroom.io/) to install apps easily
 * [Golang](http://golang.org) Google's language
 * [Git](http://git-scm.com) for code versioning
 * [NodeJS](http://nodejs.org/) for JavaScript programming
