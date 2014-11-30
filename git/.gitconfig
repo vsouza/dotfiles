@@ -2,9 +2,9 @@
 	name = Vinicius Souza
 	email = hi@vsouza.com
 [color]
-  diff = auto
-  status = auto
-  ui = true
+    diff = auto
+    status = auto
+    ui = true
 [color "branch"]
     current = yellow reverse
     local = yellow
@@ -27,6 +27,7 @@
     ff = false
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = subl -n -w
 [alias]
 	addremove = !git r && git add . --all
 	all = add . --all

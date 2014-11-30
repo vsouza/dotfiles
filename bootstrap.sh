@@ -38,7 +38,7 @@ msg 'Initializing...'
 msg '\n'
 
 # -- Homebrew ------------------------------------------------------------------
-if which brew &> /dev/null; then
+if hash brew 2> /dev/null; then
 	msg_ok "homebrew"
 else
 	msg_run "homebrew" "ruby -e '$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)'"
@@ -46,19 +46,19 @@ else
 fi
 
 # -- Git -----------------------------------------------------------------------
-if which git &> /dev/null; then
+if hash git 2> /dev/null; then
 	msg_ok "git"
 else
-	msg_run "git" "brew install git"
-	brew install git
+	msg_run "git"
+	brew install git 2> /dev/null
 fi
 
 # -- Golang -----------------------------------------------------------------------
-if which go &> /dev/null; then
+if hash go 2> /dev/null; then
 	msg_ok "golang"
 else
-	msg_run "golang" "brew install golang"
-	brew install go
+	msg_run "golang"
+	brew install go 2> /dev/null
 fi
 
 

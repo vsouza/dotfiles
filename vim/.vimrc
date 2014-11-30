@@ -20,24 +20,4 @@ map <left> <nop>
 map <right> <nop>
 
 
-set runtimepath+=~/.vim/bundle/Vundle.vim " my dev version
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'L9'
-Bundle 'Markdown'
-Bundle 'SuperTab'
-Bundle 'Tagbar'
-Bundle 'scrooloose/syntastic'
-Bundle 'leshill/vim-json'
-Bundle 'jtratner/vim-flavored-markdown'
-Bundle 'ntpeters/vim-better-whitespace'
-Bundle 'mgutz/vim-colors'
-Plugin 'bling/vim-airline'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'fatih/vim-go'
-
-
-call vundle#end()            " required
 filetype plugin indent on    " required
