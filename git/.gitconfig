@@ -1,10 +1,14 @@
 [user]
 	name = Vinicius Souza
 	email = hi@vsouza.com
-
 [color]
   diff = auto
   status = auto
+  ui = true
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
 [color "diff"]
 	meta = yellow bold
 	frag = magenta bold
@@ -17,8 +21,20 @@
 	deleted   = red bold
 	untracked = yellow bold
 [push]
-	# 'git push' will push the current branch to its tracking branch
-	# the usual default is to push all branches
-	default = tracking
+	default = simple
+[merge]
+    log = true
+    ff = false
 [core]
 	excludesfile = ~/.gitignore_global
+[alias]
+	addremove = !git r && git add . --all
+	all = add . --all
+	st = status
+	gp = git push
+	gpu = git pull
+	brname = git branch
+	brdel = git branch -D
+	ci = commit
+	co = checkout
+	br = branch -av

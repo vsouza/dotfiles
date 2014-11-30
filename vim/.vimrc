@@ -1,5 +1,5 @@
 syntax on
-filetype plugin indent on           
+filetype plugin indent on
 
 
 set mouse-=a   " Disable mouse
@@ -12,8 +12,6 @@ let g:go_bin_path = expand("~/golang")
 
 
 colorscheme mustang
-
-
 
 " Disable arrow keys"
 map <up> <nop>

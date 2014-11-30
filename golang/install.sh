@@ -6,7 +6,6 @@ if [ ! -d "$HOME/golang" ]; then
 	mkdir $HOME/golang
 fi
 	msg_run "Set GOPATH and GOROOT enviroment variables"
-	export GOROOT=/usr/local/go
+	export GOROOT=/usr/local/go/1.3/bin
 	export GOPATH=$HOME/golang
 	export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-	

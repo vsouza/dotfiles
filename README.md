@@ -32,14 +32,13 @@ After installing all apps are moved to /Applications folder
  * Skype
  * Dropbox
  * iTerm2
- * Source Tree
  * Virtualbox
  * Vagrant
  * Mysql Workbench
  * Google Drive
  * Evernote
  * Spotify
- * uTorrent
+ * Transmission
  * VLC Media Player
 
 #### Shell
@@ -57,12 +56,18 @@ After installing all apps are moved to /Applications folder
 * [Homebrew Cask](http://caskroom.io/) to install apps easily
 * [Golang](http://golang.org) Google's language
 * [Git](http://git-scm.com) for code versioning
-* [NodeJS](http://nodejs.org/) for JavaScript programming
 
-#### NodeJS
 
-* [N](https://github.com/visionmedia/n) for Node version management
+#### Javascript
+
+* [NodeJs](https://github.com/visionmedia/n) for Node version management
 * [Bower](http://bower.io/) for front-end package management
+* [Gulp](http://gulpjs.com) the streamming bulding system
+* [Meteor](http://meteor.com/) Open source platform for building web and mobile app in pure JavaScript.
+
+#### .osx Configuration
+
+Thanks to [brandonb927](https://gist.github.com/brandonb927/3195465) for this great hack.
 
 ## Credits
 
