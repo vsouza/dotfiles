@@ -42,7 +42,7 @@ if hash brew 2> /dev/null; then
 	msg_ok "homebrew"
 else
 	msg_run "homebrew" "ruby -e '$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)'"
-	ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # -- Git -----------------------------------------------------------------------
