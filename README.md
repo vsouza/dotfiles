@@ -76,3 +76,7 @@ Thanks to [brandonb927](https://gist.github.com/brandonb927/3195465) for this gr
 ## License
 
 [MIT License](http://vsouza.mit-license.org/) © Vinicius Souza
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vsouza/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
