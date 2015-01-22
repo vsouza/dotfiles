@@ -1,6 +1,6 @@
 [user]
 	name = Vinicius Souza
-	email = hi@vsouza.com
+	email = vinicius.souza@luizalabs.com
 [color]
     diff = auto
     status = auto
@@ -27,11 +27,14 @@
     ff = false
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = subl -n -w
+	editor = vim
 [alias]
 	addremove = !git r && git add . --all
 	all = add . --all
-	st = status
+    st = status
+    ga = git add -A
+    gl = git log
+	gs = git status
 	gp = git push
 	gpu = git pull
 	brname = git branch
@@ -39,3 +42,7 @@
 	ci = commit
 	co = checkout
 	br = branch -av
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
