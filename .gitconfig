@@ -42,3 +42,6 @@
 	ci = commit
 	co = checkout
 	br = branch -av
+[credential]
+    helper = osxkeychain
+    useHttpPath = true
