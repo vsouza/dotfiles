@@ -1,4 +1,5 @@
 #!/bin/sh
+#a
 
 # Tells the shell script to exit if it encounters an error
 set -e

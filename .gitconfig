@@ -29,6 +29,10 @@
 	excludesfile = ~/.gitignore_global
 	editor = vim
 [alias]
+[alias]
+    changeremotehost = !sh -c \"git remote -v | grep '$1.*fetch' | sed s/..fetch.// | sed s/$1/$2/ | xargs git remote set-url\"
+    setpromail = "config user.email 'arnaud.rinquin@wopata.com'"
+    gopro = !sh -c \"git changeremotehost github.com github_pro && git changeremotehost bitbucket.com bitbucket_pro && git setpromail\"
 	addremove = !git r && git add . --all
 	all = add . --all
     st = status
