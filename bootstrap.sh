@@ -83,10 +83,6 @@ sh $HOME/.dotfiles/git.sh
 msg_run "configure golang"
 sh $HOME/.dotfiles/golang.sh
 
-# Configure Javascript enviroment
-msg_run "configure javascript enviroment"
-sh $HOME/.dotfiles/javascript.sh
-
 # Configure osx directives
 msg_run "configure osx directives"
 sh $HOME/.dotfiles/osx.sh
