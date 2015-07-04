@@ -9,3 +9,6 @@ else
 fi
 
 ## Install some pip packages
+msg run "install ipdb"
+pip install ipdb
+
