@@ -35,7 +35,7 @@ __Make sure that you already have installed xcode !__
 $ curl -L https://raw.github.com/vsouza/dotfiles/master/bootstrap.sh | sh
 ```
 
-This will clone this repository and symlink the appropriate files in `~/.dotfiles` to your home directory.
+This will clone this repository and symlink the appropriate files in `~/dotfiles` to your home directory.
 
 ## What's included?
 
