@@ -1,20 +1,21 @@
 #!/bin/sh
-source $HOME/dotfiles/log.sh
+source ~/dotfiles/log.sh
 
 # -- Config --------------------------------------------------------------------
-if [[ -L "$HOME/.gitconfig" ]]; then
-	msg_nested_done "gitconfig"
-else
-	msg_run "gitconfig" "ln -s $HOME/.dotfiles/git/.gitconfig $HOME/.gitconfig"
-	ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
+if [[ -L ~/.gitconfig ]]; then
+    rm ~/.gitconfig
 fi
 
+ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+msg_nested_done "gitconfig"
+
+
 # -- Global Ignore -------------------------------------------------------------
-if [[ -L "$HOME/.gitignore_global" ]]; then
-	msg_nested_done "gitignore_global"
-else
-	msg_run "gitignore_global" "ln -s $HOME/.dotfiles/git/.gitignore_global $HOME/.gitignore_global"
-	ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
+if [[ -L ~/.gitignore_global ]]; then
+	rm ~/.gitignore_global
 fi
+	
+msg_nested_done "gitignore_global" 
+ln -s ~/dotfiles/.gitignore_global ~/.gitignore_global
 
 msg_done "git configured."
