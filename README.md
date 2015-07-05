@@ -43,27 +43,28 @@ All my command-line tools and its configurations. Have fun :)
 
 #### Apps
 
-After installing all apps are moved to /Applications folder
+* Google Chrome
+* Sublime Text
+* Transmit
+* dash
+* robomongo
+* fitbit-connect
+* iTerm2
+* littleipsum
+* VirtualBox
+* Mysql Workbench
+* Vagrant
+* Skype
+* Spotify
+* Vlc Media Player
+* Cloud App
+* Keka
+* Caffeine
+* Transmission
+* Slack
+* Telegram
+* Razorsql
 
- * Atom
- * Firefox
- * Google Chrome
- * Cloud App
- * Caffeine
- * Filezilla
- * Sublime Text
- * Github App
- * Skype
- * Dropbox
- * iTerm2
- * Virtualbox
- * Vagrant
- * Mysql Workbench
- * Google Drive
- * Evernote
- * Spotify
- * Transmission
- * VLC Media Player
 
 #### Shell
 

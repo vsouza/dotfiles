@@ -115,6 +115,10 @@ sh ~/dotfiles/vim.sh
 msg_prompt "Install and Configure Python"
 sh ~/dotfiles/python.sh
 
+# Install and Configure Python
+msg_prompt "Install and Configure Oh-my-zshel"
+sh ~/dotfiles/zsh.sh
+
 rm sample.s
 
 msg_done "Your machine  works like a charm! =*"
