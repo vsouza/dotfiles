@@ -45,6 +45,8 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 export JAVA_HOME=$(/usr/libexec/java_home)
+export GOLABS=$HOME/golang/src/github.com/luizalabs
+export GOVS=$HOME/golang/src/github.com/vsouza
 
 # Git Aliases
 alias gs='git status'

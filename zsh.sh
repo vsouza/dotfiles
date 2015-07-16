@@ -1,4 +1,4 @@
-#!/bin/sh
+#/bin/sh
 source ~/dotfiles/log.sh
 
 if [[ -d ~/.oh-my-zsh ]]; then
@@ -9,6 +9,8 @@ fi
 
 if [[ -L ~/.zshrc ]]; then
 	msg_nested_done "zsh"
+    rm ~/.zshrc
+    ln -s ~/dotfiles/.zshrc ~/.zshrc
 else
 	msg_nested_done "config zsh" "ln -s ~/dotfiles/.zshrc ~/.zshrc"
 	ln -s ~/dotfiles/.zshrc ~/.zshrc
