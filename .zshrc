@@ -45,6 +45,8 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 export JAVA_HOME=$(/usr/libexec/java_home)
+export GOLABS=$HOME/golang/src/github.com/luizalabs
+export GOVS=$HOME/golang/src/github.com/vsouza
 
 # Git Aliases
 alias gs='git status'
@@ -65,6 +67,10 @@ alias fuck='sudo $(history -p \!\!)'
 export DOCKER_HOST=tcp://192.168.59.103:2376
 export DOCKER_CERT_PATH=/Users/vsouza/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
+
+## Docker alias
+alias dck-stop-all='docker stop $(docker ps -a -q)'
+alias dck-rm-all='docker rm $(docker ps -a -q)'
 
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
