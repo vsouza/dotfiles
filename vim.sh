@@ -12,11 +12,13 @@ if [[ -h ~/.vimrc ]]; then
    rm ~/.vimrc
 fi
 
-if [[ -d ~/dotfiles/.vimrc ]]; then
+if [[ -f ~/dotfiles/.vimrc ]]; then
     sudo rm -r ~/dotfiles/.vimrc
+fi
+
     msg_nested_done "setup .vimrc file from https://github.com/vsouza/.vimrc"
 	git clone https://github.com/vsouza/.vimrc.git 2> /dev/null
 	ln -s ~/dotfiles/.vimrc/.vimrc ~/.vimrc
-fi
+
 
 msg_done "Setup Vim completed"
