@@ -22,9 +22,6 @@
 	untracked = yellow bold
 [push]
 	default = simple
-[merge]
-    log = true
-    ff = false
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = vim
