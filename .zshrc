@@ -71,8 +71,17 @@ export DOCKER_TLS_VERIFY=1
 ## Docker alias
 alias dck-stop-all='docker stop $(docker ps -a -q)'
 alias dck-rm-all='docker rm $(docker ps -a -q)'
+alias dck-dynamo-s='docker run -d -p 8080:8080 vsouza/dynamo-local --port 8080 --path .'
+alias dck-kinesis-s='docker run -d -p 4567:4567 vsouza/kinesis-local -p 4567'
 
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 export MSYS_HOME=/c/msys/1.0
 source /usr/local/bin/virtualenvwrapper.sh
+
+# AWS envvars
+export AWS_ACCESS_KEY_ID="foo"
+export AWS_ACCESS_KEY="bar"
+export AWS_SECRET_ACCESS_KEY="foo"
+export AWS_SECRET_KEY="bar"
+

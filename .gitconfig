@@ -25,20 +25,6 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = vim
-[alias]
-	addremove = !git r && git add . --all
-	all = add . --all
-    st = status
-    ga = git add -A
-    gl = git log
-	gs = git status
-	gp = git push
-	gpu = git pull
-	brname = git branch
-	brdel = git branch -D
-	ci = commit
-	co = checkout
-	br = branch -av
 [credential]
     helper = osxkeychain
     useHttpPath = true
