@@ -20,6 +20,8 @@
 	changed   = magenta bold
 	deleted   = red bold
 	untracked = yellow bold
+[push]
+	default = simple
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = vim

@@ -48,6 +48,8 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export GOLABS=$HOME/golang/src/github.com/luizalabs
 export GOVS=$HOME/golang/src/github.com/vsouza
 
+export PYLABS=$HOME/Developer/Python
+
 # Git Aliases
 alias gs='git status'
 alias gl='git log'
