@@ -61,6 +61,7 @@ alias gc='git commit -m'
 alias gu='git add -u'
 alias ga='git add -A'
 alias grmc='git rm -r --cached'
+alias gru='git clean  -d  -fx ""'
 
 # forgot root
 alias fuck='sudo $(history -p \!\!)'
