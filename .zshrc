@@ -48,6 +48,8 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export GOLABS=$HOME/golang/src/github.com/luizalabs
 export GOVS=$HOME/golang/src/github.com/vsouza
 
+export PYLABS=$HOME/Developer/Python
+
 # Git Aliases
 alias gs='git status'
 alias gl='git log'
@@ -59,6 +61,7 @@ alias gc='git commit -m'
 alias gu='git add -u'
 alias ga='git add -A'
 alias grmc='git rm -r --cached'
+alias gru='git clean  -d  -fx ""'
 
 # forgot root
 alias fuck='sudo $(history -p \!\!)'
