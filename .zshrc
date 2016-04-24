@@ -31,11 +31,12 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git, composer, boot2docker, cloudapp, docker, git-extras)
+plugins=(git, boot2docker, cloudapp, docker, git-extras)
 
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH=/users/vsouza/.vapor:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -45,10 +46,8 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 export JAVA_HOME=$(/usr/libexec/java_home)
-export GOLABS=$HOME/golang/src/github.com/luizalabs
 export GOVS=$HOME/golang/src/github.com/vsouza
 
-export PYLABS=$HOME/Developer/Python
 
 # Git Aliases
 alias gs='git status'
@@ -88,3 +87,10 @@ export AWS_ACCESS_KEY="bar"
 export AWS_SECRET_ACCESS_KEY="foo"
 export AWS_SECRET_KEY="bar"
 
+# Swift
+export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}"
+
+#swiftenv
+export SWIFTENV_ROOT="$HOME/.swiftenv"
+export PATH="$SWIFTENV_ROOT/bin:$PATH"
+eval "$(swiftenv init -)"
