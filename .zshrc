@@ -31,7 +31,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git, boot2docker, cloudapp, docker, git-extras)
+plugins=(git, cloudapp, docker, git-extras)
 
 # User configuration
 
@@ -43,9 +43,10 @@ source $ZSH/oh-my-zsh.sh
 
 export GOPATH=$HOME/golang
 export GOROOT=/usr/local/opt/go/libexec
+export GOBIN=$HOME/golang/bin
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
-export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
 export GOVS=$HOME/golang/src/github.com/vsouza
 
 
@@ -61,14 +62,11 @@ alias gu='git add -u'
 alias ga='git add -A'
 alias grmc='git rm -r --cached'
 alias gru='git clean  -d  -fx ""'
+alias gf='git diff'
+alias gcb='git checkout -B'
 
 # forgot root
 alias fuck='sudo $(history -p \!\!)'
-
-# Docker variables
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=/Users/vsouza/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
 
 ## Docker alias
 alias dck-stop-all='docker stop $(docker ps -a -q)'

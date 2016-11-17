@@ -19,11 +19,6 @@ fi
 brew cask install google-chrome --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Google Chrome"
 
-
-brew cask install sublime-text --appdir=/Applications  > sample.s 2> /dev/null
-msg_nested_done "Sublime Text"
-
-
 brew cask install transmit --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Transmit"
 
@@ -33,9 +28,6 @@ msg_nested_done "dash"
 brew cask install robomongo --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "robomongo"
 
-brew cask install fitbit-connect --appdir=/Applications  > sample.s 2> /dev/null
-msg_nested_done "fitbit-connect"
-
 brew cask install iterm2 --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "iTerm2"
 
@@ -44,7 +36,6 @@ msg_nested_done "littleipsum"
 
 brew cask install virtualbox --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "VirtualBox"
-
 
 brew cask install mysqlworkbench --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Mysql Workbench"
@@ -67,9 +58,6 @@ msg_nested_done "Cloud App"
 brew cask install keka --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Keka"
 
-brew cask install caffeine --appdir=/Applications  > sample.s 2> /dev/null
-msg_nested_done "Caffeine"
-
 brew cask install transmission --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Transmission"
 
@@ -81,5 +69,14 @@ msg_nested_done "Telegram"
 
 brew cask install razorsql --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Razorsql"
+
+brew cask install evernote --appdir=/Applications > sample.s 2> /dev/null
+msg_nested_done "Evernote"
+
+brew cask install franz --appdir=/Applications > sample.s 2> /dev/null
+msg_nested_done "Franz"
+
+brew cask install docker --appdir=/Applications > sample.s 2> /dev/null
+msg_nested_done "Docker"
 
 msg_done "Apps installed!"
