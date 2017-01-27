@@ -46,7 +46,7 @@ export GOROOT=/usr/local/opt/go/libexec
 export GOBIN=$HOME/golang/bin
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home"
 export GOVS=$HOME/golang/src/github.com/vsouza
 
 
@@ -92,3 +92,7 @@ export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PA
 export SWIFTENV_ROOT="$HOME/.swiftenv"
 export PATH="$SWIFTENV_ROOT/bin:$PATH"
 eval "$(swiftenv init -)"
+
+
+[ -s "/Users/vinicius.souza/.jabba/jabba.sh" ] && source "/Users/vinicius.souza/.jabba/jabba.sh"
+alias gvim='/usr/local/Cellar/macvim/8.0-119_1/MacVim.app/Contents/MacOS/Vim -g' 
