@@ -64,6 +64,7 @@ alias grmc='git rm -r --cached'
 alias gru='git clean  -d  -fx ""'
 alias gf='git diff'
 alias gcb='git checkout -B'
+alias gfs='git diff --color | diff-so-fancy'
 
 # forgot root
 alias fuck='sudo $(history -p \!\!)'
