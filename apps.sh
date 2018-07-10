@@ -11,10 +11,8 @@ else
 	brew tap phinze/homebrew-cask  > sample.s 2> /dev/null
   	brew install brew-cask  > sample.s 2> /dev/null
 	msg_done "Brew cask is installed!"
-	
+
 fi
-
-
 
 brew cask install google-chrome --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Google Chrome"
@@ -31,14 +29,8 @@ msg_nested_done "robomongo"
 brew cask install iterm2 --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "iTerm2"
 
-brew cask install littleipsum --appdir=/Applications  > sample.s 2> /dev/null
-msg_nested_done "littleipsum"
-
 brew cask install virtualbox --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "VirtualBox"
-
-brew cask install mysqlworkbench --appdir=/Applications  > sample.s 2> /dev/null
-msg_nested_done "Mysql Workbench"
 
 brew cask install vagrant --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Vagrant"
@@ -57,9 +49,6 @@ msg_nested_done "Cloud App"
 
 brew cask install keka --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Keka"
-
-brew cask install transmission --appdir=/Applications  > sample.s 2> /dev/null
-msg_nested_done "Transmission"
 
 brew cask install slack --appdir=/Applications  > sample.s 2> /dev/null
 msg_nested_done "Slack"
