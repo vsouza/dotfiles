@@ -15,6 +15,13 @@ sudo scutil --set HostName "vsouza"
 sudo scutil --set LocalHostName "vsouza"
 
 
+# Disable Creation of Metadata Files on Network Volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+# Disable Creation of Metadata Files on USB Volumes
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+
+
 msg_nested_lvl_done "[General] Increasing the window resize speed for Cocoa applications"
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 

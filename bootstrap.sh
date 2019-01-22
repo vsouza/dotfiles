@@ -99,10 +99,6 @@ sh ~/dotfiles/apps.sh
 msg_prompt "configure git"
 sh ~/dotfiles/git.sh
 
-# # Configure Golang
-msg_prompt "configure golang"
-sh ~/dotfiles/golang.sh
-
 # Configure osx directives
 msg_prompt "configure osx directives"
 sh ~/dotfiles/osx.sh
@@ -114,10 +110,6 @@ sh ~/dotfiles/vim.sh
 # Install and Configure Python
 msg_prompt "Install and Configure Python"
 sh ~/dotfiles/python.sh
-
-# Install and Configure Python
-msg_prompt "Install and Configure Oh-my-zshel"
-sh ~/dotfiles/zsh.sh
 
 rm sample.s
 
